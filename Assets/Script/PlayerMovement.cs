@@ -28,12 +28,15 @@ public class PlayerMovement : MonoBehaviour
 
         // On récupère la direction droite/gauche du joystick que l'on augmente par la vitesse
         float xAxis = _moveInput.action.ReadValue<Vector2>().x * _movementSpeed;
-        Debug.Log(xAxis);
 
         UpdateAnimator(xAxis);
 
         UpdateRotation(xAxis);
+        AddMovement(xAxis);
+    }
 
+    private void AddMovement(float xAxis)
+    {
         // On fourni une nouvelle velocité avec notre direction à nous MAIS 
         // en conservant la vitesse de chute de l'objet pour que la gravité s'accumule progressivement.
         _rb.velocity = new Vector2(xAxis, _rb.velocity.y);

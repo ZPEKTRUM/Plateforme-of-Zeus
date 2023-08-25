@@ -5,14 +5,17 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
+  - FxTemporaire
+  - Ale
+  - floor
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - ground
   - Water
   - UI
-  - 
+  - Player
   - 
   - 
   - 
