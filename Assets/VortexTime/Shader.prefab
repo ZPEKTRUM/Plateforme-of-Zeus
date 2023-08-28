@@ -232,7 +232,7 @@ CapsuleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.0000009608907, y: -0.0024971939}
@@ -250,3 +250,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4caadb73968b17842b0011e1bc8ffc8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _sceneNameToLoad: Level1
+  _onFinish:
+    m_PersistentCalls:
+      m_Calls: []

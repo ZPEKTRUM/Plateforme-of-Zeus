@@ -1,22 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
+using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 
 public class DoorW : MonoBehaviour
 {
-    [SerializeField] InputActionReference _nextInput;
-    [SerializeField] string _sceneName;
+    [SerializeField] string _sceneNameToLoad;
+    [SerializeField] UnityEvent _onFinish;
 
-    private void Update()
+
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        // On attend que l'input de fin de niveau est appuyé pile sur cette update
-        if (_nextInput.action.WasPressedThisFrame())
+        if (Player.IsPlayer(collision))
         {
-            // Puis on lance la scene
-            SceneManager.LoadScene("_SampleScene");
+            _onFinish.Invoke();
+            SceneManager.LoadScene(_sceneNameToLoad);
+
         }
     }
-
 }

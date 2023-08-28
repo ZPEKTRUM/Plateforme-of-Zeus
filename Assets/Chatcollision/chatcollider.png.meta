@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e1148fa54c8b6ba47ac28d2b1b7b440e
+guid: b09e5db0503bb544699d126c54cfb926
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -70,7 +70,7 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 8192
-    resizeAlgorithm: 0
+    resizeAlgorithm: 1
     textureFormat: -1
     textureCompression: 2
     compressionQuality: 50
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: scie1_0
+      name: chatcollider_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 369.2
-        height: 313
+        width: 108.333336
+        height: 70
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 560d623d6b2818a44adb33685fcf6978
-      internalID: -397838410
+      spriteID: a37c6f4108aaca44eaf3ab22bc5169c8
+      internalID: -2109880865
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: scie1_1
+      name: chatcollider_1
       rect:
         serializedVersion: 2
-        x: 369
+        x: 108
         y: 0
-        width: 369.2
-        height: 313
+        width: 108.333336
+        height: 70
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ecd673171cb6514c8e05f0cabeaf226
-      internalID: -1867818084
+      spriteID: 26109cc535541464b99e4d4f01df651a
+      internalID: -93695194
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: scie1_2
+      name: chatcollider_2
       rect:
         serializedVersion: 2
-        x: 738
+        x: 216
         y: 0
-        width: 369.2
-        height: 313
+        width: 108.333336
+        height: 70
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 629e42916bccaec4d8aa457bfeb1f02d
-      internalID: -528292066
+      spriteID: aec5436b899937b4a8340be8bb073fb1
+      internalID: 1972892899
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: scie1_3
+      name: chatcollider_3
       rect:
         serializedVersion: 2
-        x: 1107
+        x: 324
         y: 0
-        width: 369.2
-        height: 313
+        width: 108.333336
+        height: 70
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 637b2ae832b31934f88791990f6620ae
-      internalID: -291250290
+      spriteID: 7a15a5e8387804445a889e8002cf149a
+      internalID: 111913785
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: scie1_4
+      name: chatcollider_4
       rect:
         serializedVersion: 2
-        x: 1476
+        x: 432
         y: 0
-        width: 369.2
-        height: 313
+        width: 108.333336
+        height: 70
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,8 +221,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67d7a7a41ff69fe4b897d041be85ec9f
-      internalID: -616188733
+      spriteID: 72c931de6d6a94f46bc95e1e945b966c
+      internalID: 175662138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chatcollider_5
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 0
+        width: 108.333336
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f94cead97cce7ed4da44fe2267827f93
+      internalID: -1554201309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chatcollider_6
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 0
+        width: 108.333336
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d3134aa6fafe943b87718a17e34a01
+      internalID: 152059407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chatcollider_7
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 0
+        width: 108.333336
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893be836945ef704799b8c17319ef3ac
+      internalID: 314269489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chatcollider_8
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 0
+        width: 108.333336
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a6bb04c82248f4ead610b09a19e485
+      internalID: 1998452827
       vertices: []
       indices: 
       edges: []
@@ -238,11 +322,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      scie1_0: -397838410
-      scie1_1: -1867818084
-      scie1_2: -528292066
-      scie1_3: -291250290
-      scie1_4: -616188733
+      chatcollider_0: -2109880865
+      chatcollider_1: -93695194
+      chatcollider_2: 1972892899
+      chatcollider_3: 111913785
+      chatcollider_4: 175662138
+      chatcollider_5: -1554201309
+      chatcollider_6: 152059407
+      chatcollider_7: 314269489
+      chatcollider_8: 1998452827
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

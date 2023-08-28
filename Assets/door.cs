@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class door : MonoBehaviour
 {
-    //[SerializeField] string _sceneNameToLoad;
+    [SerializeField] string _sceneNameToLoad;
     [SerializeField] UnityEvent _onFinish;
 
 
@@ -15,7 +15,7 @@ public class door : MonoBehaviour
         if (Player.IsPlayer(collision))
         {
             _onFinish.Invoke();
-            //SceneManager.LoadScene("Level2");
+            SceneManager.LoadScene(_sceneNameToLoad);
 
         }
     }
